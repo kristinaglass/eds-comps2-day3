@@ -1,0 +1,30 @@
+---
+title: "eds-comp2-day3"
+format: html
+editor: visual
+---
+
+## Vectors in R
+
+```{r}
+marmots <- c("blue", "green", 4, "yellow", TRUE)
+
+class(marmots)
+
+marmots
+#adding class, all elements have to be of the same class. adding quotations makes character
+```
+
+## create numeric vector
+
+```{r}
+pica <- c(1, 33, 17, 5, 18)
+
+class(pica)
+##check class if something isnt working. cna be checke quickly in console
+
+```
+
+```{r}
+bear <- c(20L, 3L, 5L, 40L)
+```
