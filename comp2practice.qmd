@@ -28,3 +28,29 @@ class(pica)
 ```{r}
 bear <- c(20L, 3L, 5L, 40L)
 ```
+
+## Vector Addition and Subtraction
+
+```{r}
+ringtail <- c(4.3, 8.9, 2.6, 5)
+
+fox <- c(1, 2, 3, 4)
+
+ringtail_fox <- ringtail + fox
+
+ringtail_fox
+
+ringtail_minus_fox <- ringtail - fox
+
+ringtail - fox
+
+ringtail_minus_fox
+
+## scaler multiplier
+
+100 * ringtail
+
+##dot product
+
+ringtail %*% fox
+```
